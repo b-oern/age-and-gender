@@ -18,4 +18,4 @@ def mapDoc(doc, client):
 
 
 n = NWebClient(os.environ['NWEB_URL'], os.environ['NWEB_USER'], os.environ['NWEB_PASS'])
-n.mapDocMeta('ml', 'age_and_gender', filterArgs='kind=image', limit=500, mapFunction=mapDoc)
+n.mapDocMeta('ml', 'age_and_gender', filterArgs='kind=image', limit=100, mapFunction=mapDoc)
